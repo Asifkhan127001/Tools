@@ -9,7 +9,7 @@ The name stands for "Client URL
 
 [Downlods continue](#downlods-continue)
 
-[Custom Reques like GRT,POST](#Custom-Reques-like-GRT,POST)
+[Custom Reques like GET,](#Custom-Reques-like-GRT)
 
 [Custom Header](#Custom-Header)
 
@@ -43,11 +43,10 @@ Downlods 2gb file and some problem cut the downlods so you don't start 0 mb use 
 
     curl -C - -O https://www.google.com
     
-## Custom Header like GET,POST
+## Custom Header like GET
 
     curl --request GET https://www.google.com
-    curl --request Post https://www.google.com
-
+    
 
 ## Custom Header 
 
