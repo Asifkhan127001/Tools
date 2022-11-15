@@ -9,7 +9,9 @@ The name stands for "Client URL
 
 [Downlods continue](#downlods-continue)
 
-[Custom Header like GRT,POST](#Custom-Header-like-GRT,POST)
+[Custom Reques like GRT,POST](#Custom-Reques-like-GRT,POST)
+
+[Custom Header]
 
 [301 Redirect](#301-redirect)
 
@@ -46,6 +48,10 @@ Downlods 2gb file and some problem cut the downlods so you don't start 0 mb use 
     curl --request GET https://www.google.com
     curl --request Post https://www.google.com
 
+
+## Custom Header 
+
+     curl -H 'Content-Type:application/x-www-form-urlencoded' http://example.com
 
 ## 301 Redirect
 
