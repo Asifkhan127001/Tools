@@ -41,7 +41,7 @@ Downlods 2gb file and some problem cut the downlods so you don't start 0 mb use 
 
     curl -C - -O https://www.google.com
     
-## Custom Header like GRT,POST
+## Custom Header like GET,POST
 
     curl --request GET https://www.google.com
     curl --request Post https://www.google.com
