@@ -19,4 +19,4 @@ BeEF is short for The Browser Exploitation Framework. It is a penetration testin
      
 ## Stop
 
-    sudo beef-xss 
+    sudo beef-xss-stop -h
