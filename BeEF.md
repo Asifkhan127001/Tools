@@ -11,12 +11,12 @@ BeEF is short for The Browser Exploitation Framework. It is a penetration testin
 
 ## Install 
 
-     sudo apt install beef-xss
+    sudo apt install beef-xss
       
 ## Start
 
-     sudo beef-xss
+    sudo beef-xss
      
 ## Stop
 
-     sudo beef-xss 
+    sudo beef-xss 
