@@ -8,6 +8,8 @@ BeEF is short for The Browser Exploitation Framework. It is a penetration testin
 
 [Stop](#Stop)
 
+[Short Url](#Short-url)
+
 
 ## Install 
 
@@ -20,3 +22,7 @@ BeEF is short for The Browser Exploitation Framework. It is a penetration testin
 ## Stop
 
     sudo beef-xss-stop -h
+
+## Short Url 
+
+    https://www.shorturl.at/
