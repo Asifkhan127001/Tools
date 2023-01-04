@@ -10,4 +10,4 @@ ffuf stands for Fuzz Faster U Fool. It's a tool used for web enumeration, fuzzin
 
 ## Basic Use
 
-       ffuf -u http://example.com/FUZZ -w wordlist.txt
+    ffuf -u http://example.com/FUZZ -w wordlist.txt
