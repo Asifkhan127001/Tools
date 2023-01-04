@@ -6,6 +6,8 @@ ffuf stands for Fuzz Faster U Fool. It's a tool used for web enumeration, fuzzin
 
 ## [Add Some Word in wordlist](#add-some-word-in-wordlist)
 
+## [Extensions](#extensions)
+
 
 
 
@@ -17,3 +19,7 @@ ffuf stands for Fuzz Faster U Fool. It's a tool used for web enumeration, fuzzin
 ## Add Some Word in wordlist
 
     ffuf -u http://example.com/FUZZ -w wordlist.txt:asif
+
+## Extensions
+
+    ffuf -u http://example.com/FUZZ -w wordlist.txt -e .php,.txt,.exe
