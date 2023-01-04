@@ -8,6 +8,8 @@ ffuf stands for Fuzz Faster U Fool. It's a tool used for web enumeration, fuzzin
 
 ## [Extensions](#extensions)
 
+## [Hide Status Code](#hide-status-code)
+
 
 
 
@@ -23,3 +25,7 @@ ffuf stands for Fuzz Faster U Fool. It's a tool used for web enumeration, fuzzin
 ## Extensions
 
     ffuf -u http://example.com/FUZZ -w wordlist.txt -e .php,.txt,.exe
+
+## Hide Status Code
+
+     ffuf -u http://example.com/FUZZ -w wordlist.txt -fc 403,302
