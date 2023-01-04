@@ -2,7 +2,7 @@
 
 ffuf stands for Fuzz Faster U Fool. It's a tool used for web enumeration, fuzzing, and directory brute forcing.
 
-## [Basic use](#basic-use)
+1. [Basic use](#basic-use)
 
 ## [Add Some Word in wordlist](#add-some-word-in-wordlist)
 
