@@ -12,6 +12,10 @@ ffuf stands for Fuzz Faster U Fool. It's a tool used for web enumeration, fuzzin
 
 ## [Find Status Code](#find-status-code)
 
+## [Filter regexp](#Filter-regexp)
+
+## [Filter HTTP response size](#Filter-HTTP-response-size)
+
 
 
 ## Basic Use
@@ -33,3 +37,28 @@ ffuf stands for Fuzz Faster U Fool. It's a tool used for web enumeration, fuzzin
 ## Find Status Code 
 
      ffuf -u http://example.com/FUZZ -w wordlist.txt -mc 403,302     
+
+## Filter regexp
+
+     ffuf -u http://example.com/FUZZ -w wordlist.txt -fr '/\..*'
+     ffuf -u http://example.com/FUZZ -w wordlist.txt -fr ?
+
+
+## Filter HTTP response size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
