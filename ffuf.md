@@ -2,7 +2,7 @@
 
 ffuf stands for Fuzz Faster U Fool. It's a tool used for web enumeration, fuzzing, and directory brute forcing.
 
-1. [Basic use](#basic-use)
+## [Basic use](#basic-use)
 
 ## [Add Some Word in wordlist](#add-some-word-in-wordlist)
 
@@ -10,7 +10,7 @@ ffuf stands for Fuzz Faster U Fool. It's a tool used for web enumeration, fuzzin
 
 ## [Hide Status Code](#hide-status-code)
 
-
+## [Find Status Code](#find-status-code)
 
 
 
@@ -29,3 +29,7 @@ ffuf stands for Fuzz Faster U Fool. It's a tool used for web enumeration, fuzzin
 ## Hide Status Code
 
      ffuf -u http://example.com/FUZZ -w wordlist.txt -fc 403,302
+
+## Find Status Code 
+
+     ffuf -u http://example.com/FUZZ -w wordlist.txt -mc 403,302     
